@@ -2,7 +2,7 @@ class Post
   attr_accessor :name, :author
   
   def title
-    post.title
+    post.name
   end
 end 
 
